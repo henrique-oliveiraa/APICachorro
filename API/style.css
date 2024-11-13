@@ -1,0 +1,77 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(./cachorro.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    margin-top: 100px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+input[type="text"] {
+    width: 80%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#result {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: none;
+}
+
+.dog-info {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+}
+
+.dog-info:last-child {
+    border-bottom: none;
+}
+
+.git{
+    color: black;
+    margin-top: 700px;
+    justify-content: center;
+    display: flex;
+    border-radius: 100px;
+
+}
+
+.navbar, .navbar-dark, .bg-dark, .fixed-top{
+    background-image: url(./cachorro.jpg);
+    background-size: cover;
+
+}
